@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   ssr: false,
   devtools: { enabled: true },
-  modules: ['nuxt-vuefire'],
+  modules: ['nuxt-vuefire', "@unocss/nuxt"],
 
   vuefire: {
     auth: true,
@@ -18,7 +18,9 @@ export default defineNuxtConfig({
   },
 
   css: [
-    "primevue/resources/themes/mdc-light-indigo/theme.css"
+    "primevue/resources/themes/mdc-light-indigo/theme.css",
+    "primeicons/primeicons.css",
+    "~/assets/css/main.css"
   ],
 
   build: {
