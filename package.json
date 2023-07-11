@@ -17,6 +17,7 @@
   "dependencies": {
     "firebase": "^9.23.0",
     "nuxt-vuefire": "^0.2.0",
+    "primeicons": "^6.0.1",
     "primevue": "^3.30.0",
     "vuefire": "^3.1.1"
   }

@@ -8,9 +8,10 @@ import TheHeader from '../components/TheHeader.vue';
 <template>
   <div>
     <TheHeader />
-    <div class="max-w-[1280px] mx-auto my-5">
+    <div class="m-container my-5">
       <slot />
     </div>
+    <TheFooter />
   </div>
 </template>
 

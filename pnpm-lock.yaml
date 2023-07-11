@@ -7,6 +7,9 @@ dependencies:
   nuxt-vuefire:
     specifier: ^0.2.0
     version: 0.2.0(@firebase/app-types@0.9.0)(firebase@9.23.0)(vuefire@3.1.1)
+  primeicons:
+    specifier: ^6.0.1
+    version: 6.0.1
   primevue:
     specifier: ^3.30.0
     version: 3.30.0(vue@3.3.4)
@@ -6104,6 +6107,10 @@ packages:
     resolution: {integrity: sha512-Rk753HI8f4uivXi4ZCIYdhmG1V+WKzvRMg/X+M42a6t7D07RcmopXJMDNk6N++7Bl75URRGsb40ruvg7Hcp2wQ==}
     engines: {node: ^14.13.1 || >=16.0.0}
     dev: true
+
+  /primeicons@6.0.1:
+    resolution: {integrity: sha512-KDeO94CbWI4pKsPnYpA1FPjo79EsY9I+M8ywoPBSf9XMXoe/0crjbUK7jcQEDHuc0ZMRIZsxH3TYLv4TUtHmAA==}
+    dev: false
 
   /primevue@3.30.0(vue@3.3.4):
     resolution: {integrity: sha512-BPMCtfEQIRfD4rrYpoRfPDWnMgrWZ7tTciKn98C1jtDxsIr7pMeNpIC2kS8x+1Jz33wqn74fi03TYo7WgJJFtA==}
